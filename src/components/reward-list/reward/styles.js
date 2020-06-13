@@ -4,6 +4,7 @@ export const MainContainer = styled.div`
     display: flex;
     flex-direction: row;
     padding: 4px;
+    
 `;
 
 export const Close = styled.div`
