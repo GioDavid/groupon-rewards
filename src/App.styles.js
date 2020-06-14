@@ -8,14 +8,24 @@ export const MainArea = styled.div`
 `;
 
 export const Rewards = styled.div`
-    background-color: black;
+    border-right: 1px solid gray;
     display: flex;
+    flex-direction: column;
     flex: 1;
+    margin-right: 8px;
 `;
 
 export const Categories = styled.div`
     display: flex;
     flex: 5;
+    flex-direction: column;
+    margin-left: 8px;
+`;
+
+export const CategoriesContainer = styled.section`
+    display: flex;
+    flex-direction: row;
+    flex: 1;
 `;
 
 
