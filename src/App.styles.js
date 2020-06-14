@@ -19,7 +19,6 @@ export const Categories = styled.div`
     display: flex;
     flex: 5;
     flex-direction: column;
-    margin: 8px;
 `;
 
 export const CategoriesContainer = styled.section`

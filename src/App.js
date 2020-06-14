@@ -2,7 +2,7 @@ import React from 'react';
 import { MainArea, Rewards, Categories, CategoriesContainer } from "./App.styles";
 import Header from "./components/header";
 import Category from "./components/category";
-import Reward from "./components/reward-list/reward";
+import Reward from "./components/reward";
 import categories from "./data/categories";
 import rewards from "./data/rewards";
 
