@@ -1,13 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 import Reward from "./components/reward-list/reward";
+import Header from "./components/header";
+import { MainArea, Rewards, Categories } from "./App.styles";
 
 function App() {
   return (
-    <div className="App">
-      <Reward name="R1" />
-    </div>
+    <MainArea>
+      <Rewards>
+        <Header text="Rewards" />
+      </Rewards>
+      <Categories>
+        <Header text="Categories" />
+        <Reward name="R1" />
+      </Categories>
+    </MainArea>
   );
 }
 
