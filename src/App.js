@@ -13,7 +13,7 @@ function App() {
   }
 
   const onDragStart = (ev, name) => {
-      ev.dataTransfer.setData("id", ev.target.id);
+      ev.dataTransfer.setData("id", name);
   }
 
   return (

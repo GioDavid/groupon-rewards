@@ -19,7 +19,7 @@ export const Categories = styled.div`
     display: flex;
     flex: 5;
     flex-direction: column;
-    margin-left: 8px;
+    margin: 8px;
 `;
 
 export const CategoriesContainer = styled.section`
